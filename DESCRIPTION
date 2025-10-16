@@ -1,0 +1,25 @@
+Package: crookR
+Title: Synthetic Crook Deformation for Stem Point Clouds
+Version: 0.1.0
+Authors@R: 
+    c(person("Raul","de Paula Pires", role = c("aut","cre"),email="rauldepaulapires@gmail.com"))
+Description: Applies parameterised crook (krok) deformations to segmented stem point clouds.
+License: MIT + file LICENSE
+Depends: R (>= 4.2)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Suggests: 
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown,
+    spelling,
+    lidR
+Config/testthat/edition: 3
+Imports: 
+    data.table,
+    stats,
+    utils
+VignetteBuilder: knitr
+LazyData: false
+Language: en-US

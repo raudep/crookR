@@ -1,0 +1,42 @@
+---
+output: github_document
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# crookR
+
+`crookR` is a tool to simulate “crook” deformations on tree stems from LiDAR-derived stem point clouds.
+
+## Installation
+
+You can install the package like:
+
+``` {r}
+install.packages("crookR")
+```
+
+## Example
+
+```{r example}
+library(crookR)
+library(lidR)
+
+data(example_stem)
+
+Crooked_Stem <- crook_deform(example_stem)
+
+# Turn the data.table into a LAS file for visualization
+
+# Crooked_Stem_PC <- LAS(Crooked_Stem)
+
+# plot(Crooked_Stem_PC)
+
+```
