@@ -23,3 +23,5 @@ Imports:
 VignetteBuilder: knitr
 LazyData: false
 Language: en-US
+URL: https://github.com/raudep/crookR
+BugReports: https://github.com/raudep/crookR/issues
