@@ -13,7 +13,7 @@
 #' @param krok_deviation extent of the deviation
 #' @param inflektion_X placement of double directional deviation
 #' @param inflektion_ext placement of double directional deviation
-#' @return Same class as input.
+#' @return Same class as input (point cloud with crook deformation)
 #' @import data.table stats
 #' @export
 
