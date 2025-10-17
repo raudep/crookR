@@ -80,6 +80,6 @@ stem_2dir <- crook_deform(
 
 op <- par(mfrow = c(1,2), mar = c(3,3,2,1))
 plot(example_stem$X, example_stem$Z, pch=16, cex=0.3, xlab="X (m)", ylab="Z (m)", main="Original")
-plot(stem_2dir$X,     stem_2dir$Z,     pch=16, cex=0.3, xlab="X (m)", ylab="Z (m)", main="Crooked 2dir (ip ≈ 0.33)")
+plot(stem_2dir$X,     stem_2dir$Z,     pch=16, cex=0.3, xlab="X (m)", ylab="Z (m)", main="Crooked 2dir (ip = 0.33)")
 par(op)
 ```
