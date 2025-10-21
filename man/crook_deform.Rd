@@ -36,7 +36,7 @@ crook_deform(
 \item{spar}{smoothing parameter for \code{stats::smooth.spline} (0..1).}
 }
 \value{
-Same class as input.
+Same class as input (point cloud with crook deformation)
 }
 \description{
 Generalization of your \code{Create_Krok()} that supports \code{lidR::LAS} or
