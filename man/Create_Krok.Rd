@@ -35,6 +35,9 @@ Create_Krok(
 
 \item{spar}{smoothing parameter for \code{stats::smooth.spline} (0..1).}
 }
+\value{
+Same class as input (LAS or data.frame object with crook deformation)
+}
 \description{
 Backwards-compatible wrapper keeping your original name/signature
 }
