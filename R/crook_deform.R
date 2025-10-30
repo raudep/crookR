@@ -13,7 +13,7 @@
 #' @param krok_deviation extent of the deviation
 #' @param inflektion_X placement of double directional deviation
 #' @param inflektion_ext placement of double directional deviation
-#' @return Same class as input (point cloud with crook deformation)
+#' @return Same class as input (LAS or data.frame object with crook deformation)
 #' @import data.table stats
 #' @export
 
@@ -124,6 +124,7 @@ crook_deform <- function(x,
 #' Backwards-compatible wrapper keeping your original name/signature
 #' @inheritParams crook_deform
 #' @param tree_stem tree stem point cloud (lidR::LAS or data.frame)
+#' @return Same class as input (LAS or data.frame object with crook deformation)
 #' @export
 #'
 Create_Krok <- function(tree_stem,

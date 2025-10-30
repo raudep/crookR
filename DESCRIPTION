@@ -4,7 +4,7 @@ Version: 0.1.0
 Authors@R: 
     c(person("Raul","de Paula Pires", role = c("aut","cre"),email="rauldepaulapires@gmail.com",
     comment = c(ORCID = "0000-0001-6500-4289")))
-Description: Simulates parameterized single- and double-directional stem deformations in tree point clouds derived from terrestrial or mobile laser scanning, enabling the generation of realistic synthetic datasets for training and validating machine learning models in wood defect detection, quality assessment, and precision forestry.
+Description: Simulates parameterized single- and double-directional stem deformations in tree point clouds derived from terrestrial or mobile laser scanning, enabling the generation of realistic synthetic datasets for training and validating machine learning models in wood defect detection, quality assessment, and precision forestry. For more details see Pires (2025) <doi:10.54612/a.7hln0kr0ta>.
 License: MIT + file LICENSE
 Depends: R (>= 4.2)
 Encoding: UTF-8
